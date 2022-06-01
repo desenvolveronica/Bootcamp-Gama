@@ -16,6 +16,7 @@
 }
 #descriptionQrCodeLastText{
     font-weight: lighter;
+    margin-top: 5px;
 }
 
 #dialogQrCOde #descriptionQrCode #close span{

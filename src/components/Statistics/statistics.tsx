@@ -6,6 +6,7 @@ import Picture from "../Menu/PictureRestaurant/PictureRestaurant";
 import Description from "../Menu/RestaurantDescription/RestaurantDescription";
 import SideButtons from "../Menu/SideButtons/MenuSideButtons";
 import {PieChart} from './PieChart/PieChart'
+import {BarChart} from './BarChart/BarChart'
 import TextPie from "../Statistics/TextPie/TextPie";
 // import "./ClientTable.css"
 
@@ -25,6 +26,7 @@ export default function PieChartCircle() {
           <div>
           <TextPie/>
           <PieChart/>
+          <BarChart/>
           </div>
         </div>
       </div>

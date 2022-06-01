@@ -52,9 +52,6 @@ h4{
   
     margin-top: -150px;
 }
-title {
-    font-size: 100px;
-}
 
 text {
     font-size: 15px;
@@ -71,11 +68,13 @@ text {
 #reactgooglegraph-1{
     box-shadow: 0 0 15px rgba(0,0,0,0.15)!important;
     margin-top: -20px;
-    width: 500px!important;
+    width: 470px!important;
     height: 300px!important;
     margin-left: 50px;
     text-align: center;
     justify-content: center;
+    transition: all 0.5s ease;
+
     
 }
 #reactgooglegraph-2{
@@ -83,12 +82,16 @@ text {
     margin-top: -20px;
     margin-left: 260px;
     /* margin-right: -200px; */
-    width: 500px!important;
+    width: 470px!important;
     height: 300px!important;
     text-align: center!important;
     justify-content: center!important;
+    transition: all 0.5s ease;
 
 }
-/* #reactgooglegraph-2:hover{
+#reactgooglegraph-2:hover{
     transform: scale(1.1);
-} */
+}
+#reactgooglegraph-1:hover{
+    transform: scale(1.1);
+}

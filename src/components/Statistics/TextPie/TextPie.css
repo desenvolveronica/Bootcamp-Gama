@@ -16,6 +16,7 @@ h1{
     display: flex;
     white-space: nowrap;
     margin-left: 15px;
+    font-weight: 500;
 }
 
 

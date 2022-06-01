@@ -34,8 +34,8 @@ export function PieChart() {
       chartType="PieChart"
       data={data}
       options={options}
-      width={"400px"}
-      height={"400px"}
+      width={"370px"}
+      height={"354px"}
     />
     </div>
     <div id='chart'>
@@ -43,8 +43,8 @@ export function PieChart() {
       chartType="PieChart"
       data={dataRetencao}
       options={optionsRetencao}
-      width={"400px"}
-      height={"400px"}
+      width={"370px"}
+      height={"354px"}
     />
     </div>
     </div>

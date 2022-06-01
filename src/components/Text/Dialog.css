@@ -1,6 +1,7 @@
 #alert-dialog-description{
     width: 500px;
 }
+
 #filled-basic{
     width: 480px;
 }
@@ -22,7 +23,8 @@
     height: 30px;
     text-align: center;
     justify-content: center;
-    padding-top: 5px
+    padding-top: 5px;
+    margin-top: 10px;
 }
 #border-none{
     border: none;
@@ -37,6 +39,7 @@
     font-weight: bold;
     color: #111;
     margin-right: 20px;
+    margin-top: 20px;
 
 }
 #footerDialogInput{
