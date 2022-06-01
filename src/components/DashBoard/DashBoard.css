@@ -1,0 +1,17 @@
+#main{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+#side-left{
+  background-color: #c4c4c4!important;
+  width: auto;
+  padding-right: 0px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.95)!important;
+	-webkit-box-shadow: 0 8px 6px -6px black!important;
+	   -moz-box-shadow: 0 8px 6px -6px black!important;
+	        box-shadow: 0 8px 6px -6px black!important;
+}
+#side-right{
+  width: 80%;
+}

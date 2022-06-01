@@ -1,0 +1,11 @@
+.pictures-restaurants {
+    position: relative;
+    margin-top: 90px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .pictures-restaurants img{
+    width: 80%;
+  }

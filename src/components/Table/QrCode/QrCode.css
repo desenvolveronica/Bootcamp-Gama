@@ -1,0 +1,56 @@
+#descriptionQrCode{
+    font-weight: bold;
+    color: #111;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+#dialogQrCOde{
+    width: 507px;
+    height: 507px;
+    display: grid;
+    text-align: center;
+}
+#descriptionQrCodeText{
+    text-align: center;
+    margin-top: -30px;
+}
+#descriptionQrCodeLastText{
+    font-weight: lighter;
+}
+
+#dialogQrCOde #descriptionQrCode #close span{
+    width: 20px;
+    height: 20px;
+}
+
+#dialogQrCOde #qrCode{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#closeDialog {
+    align-items: flex-end;
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#dialogQrCOde #functionalities img{
+    width: 20px;
+    height: 20px;
+}
+
+#functionalities{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#functionalities img{
+    padding: 0 10%;
+    margin-top: 10px
+}

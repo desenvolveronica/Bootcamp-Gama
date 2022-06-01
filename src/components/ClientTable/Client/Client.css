@@ -1,0 +1,62 @@
+.headerTable{
+    background: #E5E5E5;
+    
+}
+.table{
+   margin-left: 1px;
+   margin-top: 250px;
+   max-width: 70rem;
+   position: absolute;
+
+ 
+}
+.client{
+    display: flex;
+}
+
+.buttomIcon{
+    display: flex;
+    margin-top: 10px;
+    padding-top: -5px;
+    
+}
+.headerName{
+    width: 100px;
+}
+.nameClient{
+    margin-left: 9px;
+    white-space: nowrap
+
+
+}
+.headerStatus{
+    width: 500px;
+    align-items: flex-start;
+
+}
+.headerViews{
+    width: 500px;
+    align-items: flex-start;
+
+ 
+}
+.headerLastViews,
+.headerActions{
+    width: 500px;
+    align-items: flex-start;
+}
+.tableInfo{
+    background: #E5E5E5;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    box-shadow: none!important;
+}
+.material-icons-outlined{
+    margin-left: 10px;
+}
+
+.client{
+    width: 0px;
+    margin-right: 350px;
+}
