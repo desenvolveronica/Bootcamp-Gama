@@ -1,5 +1,3 @@
-import React from "react";
-// import { Link } from "react-router-dom";
 import AdressAndContact from "../Menu/AdressAndContact/AdressAndContact/AdressAndContact";
 import Navigation from "../Menu/Header/menu";
 import Picture from "../Menu/PictureRestaurant/PictureRestaurant";
@@ -8,7 +6,6 @@ import SideButtons from "../Menu/SideButtons/MenuSideButtons";
 import {PieChart} from './PieChart/PieChart'
 import {BarChart} from './BarChart/BarChart'
 import TextPie from "../Statistics/TextPie/TextPie";
-// import "./ClientTable.css"
 
 export default function PieChartCircle() {
   return (
