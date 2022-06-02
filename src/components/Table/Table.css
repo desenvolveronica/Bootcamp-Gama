@@ -1,0 +1,106 @@
+.table-container {
+  display: flex;
+}
+
+.headerTable {
+  background: rgb(241, 235, 235);
+}
+.table {
+  margin-left: 1px;
+  margin-top: 100px !important;
+  overflow: hidden;
+}
+.buttomIcon {
+  display: flex;
+  width: 100vw !important;
+  margin-top: 30px;
+  padding-top: -5px;
+}
+.people {
+  display: flex;
+}
+.headerName {
+  width: 500px;
+}
+.headerStatus {
+  padding-left: -50px;
+  width: 200px;
+  align-items: flex-start;
+}
+.headerClient {
+  width: 210px;
+  align-items: flex-end;
+  padding-left: 500px;
+}
+/* .tableBody{
+    background: pink;
+    max-width: 10px;
+    padding: 500px
+} */
+.headerAction {
+  width: 200px;
+  align-content: flex-end;
+}
+.headerStart {
+  width: 200px;
+}
+.tableInfo {
+  background: rgb(241, 235, 235);
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+  box-shadow: none !important;
+}
+.material-icons-outlined {
+  margin-left: 10px;
+}
+.rowClient {
+  display: flex;
+  width: 0px;
+  margin-right: -100px;
+}
+.rowClientNumber {
+  display: flex;
+  width: 0px;
+  padding-right: 100px;
+}
+.rowStatus {
+  width: 100px;
+}
+.start {
+  text-align: end;
+  width: 100px;
+  margin-right: -50px;
+}
+#sneakersText {
+  font-weight: 600;
+  padding-left: 10px;
+  white-space: nowrap;
+}
+.sneakers {
+  display: flex;
+  transition: all 0.5s ease;
+}
+.sneakers img {
+  width: 50px;
+  border: solid 1px #6ab04c;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+.sneakers img:hover {
+  width: 70px;
+}
+#iconAction {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0px;
+}
+
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  border: none !important;
+}
+#tableQrCode {
+  padding-left: 7px;
+}

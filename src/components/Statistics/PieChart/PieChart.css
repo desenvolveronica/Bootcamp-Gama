@@ -1,0 +1,97 @@
+#chart {
+    text-align: left;
+    display: flex;
+    margin-top: 200px;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    /* background-color: red; */
+    flex-direction: column;
+    border: solid 220x rgb(98, 0, 255);
+
+
+}
+  #pieChart{
+      display: flex;
+      /* background-color: red; */
+      border: solid 2000x rgb(98, 0, 255);
+
+
+}
+#graphic{
+    margin-top: -40px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: -500px;
+
+}
+
+
+h6{
+    white-space: nowrap;
+    text-align: center;
+    align-items: center;
+    font-size: 19px;
+
+
+
+}
+.pieChartContent{
+    width: 250px;
+    height: 250px;
+    padding-right: 200px;
+    border-top: solid 500px #fff;
+    margin-top: -550px;
+}
+
+/* circle {
+    fill: #fff;
+    display: none;
+} */
+h4{
+  
+    margin-top: -150px;
+}
+
+text {
+    font-size: 15px;
+}
+#grafico{
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+/* #reactgooglegraph-3{
+    margin-bottom: 100px;
+    background: red;
+} */
+#reactgooglegraph-1{
+    box-shadow: 0 0 15px rgba(0,0,0,0.15)!important;
+    margin-top: -20px;
+    width: 470px!important;
+    height: 300px!important;
+    margin-left: 50px;
+    text-align: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+
+    
+}
+#reactgooglegraph-2{
+    box-shadow: 0 0 15px rgba(0,0,0,0.15)!important;
+    margin-top: -20px;
+    margin-left: 260px;
+    /* margin-right: -200px; */
+    width: 470px!important;
+    height: 300px!important;
+    text-align: center!important;
+    justify-content: center!important;
+    transition: all 0.5s ease;
+
+}
+#reactgooglegraph-2:hover{
+    transform: scale(1.1);
+}
+#reactgooglegraph-1:hover{
+    transform: scale(1.1);
+}

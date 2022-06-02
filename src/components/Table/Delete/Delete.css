@@ -1,0 +1,26 @@
+#deletarClient{
+    margin-right: 10px;
+    padding: none;
+}
+#buttonCancelar{
+    color: #111
+}
+#buttonExcluir{
+    color: #111;
+    background: #EB5757;
+}
+#dialog-description{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 120px;
+}
+#description{
+    font-weight: bold;
+    color: #111
+}
+#dialogAll{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,33 @@
+#textTable {
+  display: flex !important;
+  flex-direction: column;
+  margin-bottom: -50px !important;
+  margin-top: -25px;
+}
+
+h1 {
+  font-size: 40px;
+  display: flex;
+  white-space: nowrap;
+}
+
+#description {
+  font-size: 17px;
+  display: flex;
+  white-space: nowrap;
+  margin-left: 15px;
+}
+#adicionarClient {
+  display: flex;
+  border-radius: 50%;
+  margin-left: 300%;
+  border: none;
+  padding: 0;
+}
+#adicionarClient img {
+  background: #ece9e9;
+  border-radius: 50%;
+}
+#adicionarClient:hover {
+  transform: scale(1.1);
+}

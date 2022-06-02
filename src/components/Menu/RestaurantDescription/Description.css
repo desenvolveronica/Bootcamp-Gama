@@ -1,0 +1,33 @@
+.info-restaurants {
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 168px;
+    height: 58px;
+  }
+  
+  .name-restaurants {
+    margin-left: 19px;
+  }
+  
+  .name-fonts,
+  .name-restaurants {
+    margin-bottom: 0;
+    padding: 1px;
+    margin-top: 0;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 29px;
+    color: #263238;
+  }
+  
+  .name-fonts {
+    margin-top: 25px;
+  }
