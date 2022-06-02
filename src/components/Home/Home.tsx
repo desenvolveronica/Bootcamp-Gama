@@ -1,15 +1,12 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import AdressAndContact from "../Menu/AdressAndContact/AdressAndContact/AdressAndContact";
 import Navigation from "../Menu/Header/menu";
 import Picture from "../Menu/PictureRestaurant/PictureRestaurant";
 import Description from "../Menu/RestaurantDescription/RestaurantDescription";
 import SideButtons from "../Menu/SideButtons/MenuSideButtons";
-import SuportClient from "../Suport/SuportClient/SuportClient";
-import TextClient from "../ClientTable/TextCient/TextClient";
-import "./SuportApp.css"
+import Home from './PageHome/PageHome'
 
-export default function SuportApp() {
+export default function HomePage() {
   return (
     <div className="side-bar">
       <Navigation />
@@ -22,10 +19,11 @@ export default function SuportApp() {
             <AdressAndContact />
             <SideButtons />
           </div>
-            <SuportClient/>
+          <div>
+          <Home/>
+
+          </div>
         </div>
-        
-        {/* <HeaderScreen /> */}
       </div>
     </div>
   );

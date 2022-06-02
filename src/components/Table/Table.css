@@ -75,7 +75,8 @@
 #sneakersText{
     font-weight: 600;
     padding-left: 10px;
-    white-space: nowrap
+    white-space: nowrap;
+    font-family: 'Poppins';
 }
 .sneakers{
     display: flex;
