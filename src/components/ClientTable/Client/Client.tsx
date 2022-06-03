@@ -125,7 +125,9 @@ const rows = [
   createData(client1, '2/5', 4, '25/08/2022'),
   createData(client2, '4/8', 3, '15/09/2002'),
   createData(client, '4/5', 7, '18/08/1972'),
-  createData(client, '3/6', 6, '13/09/1992'),
+  createData(client, '3/6', 6, '13/04/1992'),
+  createData(client1, '2/5', 4, '21/11/2022'),
+  createData(client2, '4/8', 3, '15/07/2002'),
 
 ];
 

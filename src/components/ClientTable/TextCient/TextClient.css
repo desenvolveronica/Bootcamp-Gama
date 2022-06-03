@@ -5,13 +5,17 @@
 }
 
 h1{
-    font-size: 35px;
+    font-size: 40px;
     padding-top: 100px;
     padding-bottom: -500px;
+    font-family: 'Poppins';
+    font-weight: 700;
 }
 p{
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: -70px;
+    font-family: 'Poppins';
+    font-weight: 400;
 }
 #adicionar{
     margin-left: 880px;
