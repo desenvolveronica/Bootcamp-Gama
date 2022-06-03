@@ -6,7 +6,7 @@ import Picture from "../Menu/PictureRestaurant/PictureRestaurant";
 import Description from "../Menu/RestaurantDescription/RestaurantDescription";
 import SideButtons from "../Menu/SideButtons/MenuSideButtons";
 import ClientTable from "../ClientTable/Client/Client";
-import TextClient from "./TextCient/TextClient";
+import TextClient from "../TextCient/TextClient";
 import "./ClientTable.css"
 
 export default function client() {

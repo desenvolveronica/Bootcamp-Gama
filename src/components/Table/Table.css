@@ -27,18 +27,10 @@
   width: 200px;
   align-items: flex-start;
 }
-
-#sneakersText{
-    font-weight: 600;
-    padding-left: 10px;
-    white-space: nowrap;
-    font-family: 'Poppins';
-
 .headerClient {
   width: 210px;
   align-items: flex-end;
   padding-left: 500px;
-
 }
 /* .tableBody{
     background: pink;

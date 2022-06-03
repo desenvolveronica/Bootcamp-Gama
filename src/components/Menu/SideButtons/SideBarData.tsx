@@ -5,11 +5,6 @@ import { Link } from 'react-router-dom';
 
 export const SideBarData = [
     {
-        title: "Home",
-        icon: <img src="src\components\Pictures\black-24dp\outline_home_black_24dp.png" alt="" />,
-        link: '/Home'
-    },
-    {
         title: "Meus Programas",
         icon: <img src="src\components\Pictures\list\outline_fact_check_black_24dp.png" alt="" />,
         link: '/DashBoard'
