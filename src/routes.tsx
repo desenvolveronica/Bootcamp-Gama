@@ -4,7 +4,7 @@ import DashBoard from "./components/DashBoard/DashBoard";
 import Client from "./components/ClientTable/ClientTable";
 import SuportApp from './components/Suport/SuportApp'
 import PieChartCircle from './components/Statistics/statistics'
-import HomePage from './components/Home/Home'
+
 
 
 const R: React.FC = () => {
@@ -35,12 +35,17 @@ const R: React.FC = () => {
           element={<PieChartCircle/>}
         />
 
-        <Route
-          path="/home"
+        {/* <Route
+          path="/favoritesrestaurantuser"
           caseSensitive={false}
-          element={<HomePage />}
+          // element={<FavoritesScreen />}
         />
 
+        <Route
+          path="/scorescreen"
+          caseSensitive={false}
+          // element={<LoyaltyScoreScreen />}
+        /> */}
       </Routes>
     </Router>
   );

@@ -32,7 +32,7 @@ export default function DeleteDialog() {
         <DialogContent id='dialogAll'>
           <DialogContentText id="dialog-description">
           <img src="src\components\Pictures\delete\delete.png" alt="" />
-          <h4 id='descriptionDelete'>Tem certeza que deseja excluir este programa?</h4>
+          <h4 id='description'>Tem certeza que deseja excluir este programa?</h4>
         </DialogContentText>
         <DialogActions>
           <Button id="buttonCancelar" onClick={handleClose}>Cancelar</Button>
