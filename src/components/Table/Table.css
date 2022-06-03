@@ -1,33 +1,43 @@
-.headerTable{
-    background: rgb(241, 235, 235);
+.table-container {
+  display: flex;
 }
-.table{
-   margin-left: 1px;
-   margin-top: 250px;
-   position: absolute; 
-   overflow: hidden;
+
+.headerTable {
+  background: rgb(241, 235, 235);
 }
-.buttomIcon{
-    display: flex;
-    margin-top: 30px;
-    padding-top: -5px;
-    
+.table {
+  margin-left: 1px;
+  margin-top: 100px !important;
+  overflow: hidden;
 }
-.people{
-    display: flex;
+.buttomIcon {
+  display: flex;
+  width: 100vw !important;
+  margin-top: 30px;
+  padding-top: -5px;
 }
-.headerName{
-    width: 500px;
+.people {
+  display: flex;
 }
-.headerStatus{
-    padding-left: -50px;
-    width: 200px;
-    align-items: flex-start;
+.headerName {
+  width: 500px;
 }
-.headerClient{
-    width: 210px;
-    align-items: flex-end;
-    padding-left: 500px;
+.headerStatus {
+  padding-left: -50px;
+  width: 200px;
+  align-items: flex-start;
+}
+
+#sneakersText{
+    font-weight: 600;
+    padding-left: 10px;
+    white-space: nowrap;
+    font-family: 'Poppins';
+
+.headerClient {
+  width: 210px;
+  align-items: flex-end;
+  padding-left: 500px;
 
 }
 /* .tableBody{
@@ -35,73 +45,70 @@
     max-width: 10px;
     padding: 500px
 } */
-.headerAction{
-    width: 200px;
-    align-content: flex-end;
+.headerAction {
+  width: 200px;
+  align-content: flex-end;
 }
-.headerStart{
-    width: 200px;
-    padding-right: 500px;
+.headerStart {
+  width: 200px;
 }
-.tableInfo{
-    background: rgb(241, 235, 235);
+.tableInfo {
+  background: rgb(241, 235, 235);
 }
 
 .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
-    box-shadow: none!important;
+  box-shadow: none !important;
 }
-.material-icons-outlined{
-    margin-left: 10px;
+.material-icons-outlined {
+  margin-left: 10px;
 }
-.rowClient{
-    display: flex;
-    width: 0px;
-    margin-right: -100px;
-
+.rowClient {
+  display: flex;
+  width: 0px;
+  margin-right: -100px;
 }
-.rowClientNumber{
-    display: flex;
-    width: 0px;
-    padding-right: 100px;
+.rowClientNumber {
+  display: flex;
+  width: 0px;
+  padding-right: 100px;
 }
-.rowStatus{
-    width: 100px;
+.rowStatus {
+  width: 100px;
 }
-.start{
-    text-align: end;
-    width: 100px;
-    margin-right: -50px ;
+.start {
+  text-align: end;
+  width: 100px;
+  margin-right: -50px;
 }
-#sneakersText{
-    font-weight: 600;
-    padding-left: 10px;
-    white-space: nowrap;
-    font-family: 'Poppins';
+#sneakersText {
+  font-weight: 600;
+  padding-left: 10px;
+  white-space: nowrap;
 }
-.sneakers{
-    display: flex;
-    transition: all .5s ease;
+.sneakers {
+  display: flex;
+  transition: all 0.5s ease;
 }
-.sneakers img{
-    width: 50px;
-    border: solid 1px #6AB04C;
-    border-radius: 10px;
-    transition: all .5s ease;
+.sneakers img {
+  width: 50px;
+  border: solid 1px #6ab04c;
+  border-radius: 10px;
+  transition: all 0.5s ease;
 }
-.sneakers img:hover{
-width: 70px
+.sneakers img:hover {
+  width: 70px;
 }
-#iconAction{
-    display: flex;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
-    padding: 15px 0px;
+#iconAction {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0px;
 }
 
 .css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
-    border: none!important
+  border: none !important;
 }
-#tableQrCode{
-    padding-left: 7px;
+#tableQrCode {
+  padding-left: 7px;
 }

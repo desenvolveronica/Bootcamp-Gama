@@ -9,16 +9,15 @@ import DeleteDialog from './components/Table/Delete/Delete'
 import PieChartCircle from './components/Statistics/statistics'
 import HomePage from './components/Home/Home'
 import Home from './components/Home/Home'
+
 import Routes from "./routes";
 
 import "./App.css";
 
-
 function App() {
-
   return (
-    
     <div className="App">
+
       <Routes/>
         {/* <HomePage/> */}
        {/* <Client/> */}
@@ -27,6 +26,9 @@ function App() {
       {/* <R/> */}
       {/* <SuportApp/> */}
       {/* <DeleteDialog/> */}
+
+      <Routes />
+
     </div>
   );
 }

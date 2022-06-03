@@ -1,6 +1,7 @@
 #textPie{
     position: relative;
-    margin-bottom: -150px;
+    margin-bottom: -100px;
+    margin-top: -45px
 
 }
 
@@ -8,8 +9,6 @@ h1{
     font-size: 40px;
     display: flex;
     white-space: nowrap
-
-
 }
 #description{
     font-size: 17px;
